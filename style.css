@@ -65,7 +65,7 @@ button:active{transform:translateY(1px)}
 #msg .st{font-size:13px;color:var(--mut);margin-top:8px}
 /* Профили, услуги-аккордеоны, таблицы */
 .chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip input{position:absolute;opacity:0;pointer-events:none}
+.chip input{position:absolute;width:1px;height:1px;margin:0;padding:0;opacity:0;pointer-events:none}
 .chip span{display:inline-block;padding:9px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface-2);cursor:pointer;font-weight:600;font-size:14px;transition:all .15s}
 .chip input:checked+span{background:linear-gradient(135deg,var(--ac),var(--ac-2));color:var(--ac-ink);border-color:transparent;box-shadow:0 4px 14px color-mix(in srgb,var(--ac) 35%,transparent)}
 .chip input:focus-visible+span{outline:2px solid var(--ac);outline-offset:2px}
